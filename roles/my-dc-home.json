@@ -1,0 +1,25 @@
+{
+  "name": "my-dc-azure",
+  "description": "Attributes used for configuring nodes in my home network",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+
+       "my_paths": {
+       "Software": "P:\\Software"
+    },
+
+    "my-linux_firewall": {
+      "ssh_allow": [
+        "192.168.3.132"
+      ]
+    }
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+
+  ],
+  "env_run_lists": {
+  }
+}

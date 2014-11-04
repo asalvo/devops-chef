@@ -1,0 +1,1 @@
+default["my-linux_firewall"]["ssh_allow"] = []

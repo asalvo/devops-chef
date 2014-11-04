@@ -1,0 +1,17 @@
+{
+  "name": "base-os-linux-ubuntu",
+  "description": "Configure our base linux environment",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[apt-periodic]",
+    "recipe[my-linux]",
+    "recipe[my-linux::ubuntu]"
+  ],
+  "env_run_lists": {
+  }
+}

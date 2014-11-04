@@ -1,0 +1,25 @@
+{
+  "name": "base",
+  "description": "Base role, should be used in a cross platform way. ",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "chef_client": {
+      "config": {
+        "ssl_verify_mode": ":verify_peer"
+      }
+    },
+    "omnibus_updater": {
+      "restart_chef_service": true
+    }
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[chef-client::delete_validation]",
+    "recipe[chef-client::config]",
+    "recipe[chef-client::service]"
+  ],
+  "env_run_lists": {
+  }
+}

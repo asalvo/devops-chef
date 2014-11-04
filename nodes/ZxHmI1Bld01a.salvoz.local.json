@@ -1,0 +1,13 @@
+{
+  "name": "ZxHmI1Bld01a.salvoz.local",
+  "chef_environment": "_default",
+  "run_list": [
+    "role[base-local]",
+    "role[base-os-linux-ubuntu]"
+  ],
+  "normal": {
+    "tags": [
+
+    ]
+  }
+}
