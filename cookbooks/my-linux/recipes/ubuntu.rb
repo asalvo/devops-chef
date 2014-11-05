@@ -58,6 +58,8 @@ cookbook_file "/etc/ssh/sshd_config" do
 end
 
 service "ssh" do
-	supports :restart => true
+	start_command "service ssh start"                          
+ 	restart_command "service ssh restart"                      
+ 	supports :restart => true
 	action :nothing
 end
