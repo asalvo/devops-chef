@@ -1,1 +1,1 @@
-default["my-linux_firewall"]["ssh_allow"] = []
+default["my_linux_firewall"]["ssh_allow"] = []

@@ -8,23 +8,26 @@
 	"buffers":
 	[
 		{
-			"contents": "{\n  \"name\": \"base\",\n  \"description\": \"Base role, should be used in a cross platform way. \",\n  \"json_class\": \"Chef::Role\",\n  \"default_attributes\": {\n    \"chef_client\": {\n      \"config\": {\n        \"ssl_verify_mode\": \":verify_peer\"\n      }\n    },\n    \"omnibus_updater\": {\n      \"restart_chef_service\": true\n    }\n  },\n  \"override_attributes\": {\n  },\n  \"chef_type\": \"role\",\n  \"run_list\": [\n    \"recipe[chef-client::delete_validation]\",\n    \"recipe[chef-client::config]\",\n    \"recipe[chef-client::service]\"\n  ],\n  \"env_run_lists\": {\n  }",
+			"file": "nodes/ZxHmI1Bld01a.salvoz.local.json",
 			"settings":
 			{
-				"buffer_size": 531,
-				"line_ending": "Windows",
-				"name": "{"
+				"buffer_size": 194,
+				"line_ending": "Windows"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 380.0,
 		"selected_items":
 		[
+			[
+				"package",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 0.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -80,22 +83,22 @@
 			[
 				{
 					"buffer": 0,
+					"file": "nodes/ZxHmI1Bld01a.salvoz.local.json",
 					"settings":
 					{
-						"buffer_size": 531,
+						"buffer_size": 194,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								228,
-								228
+								180,
+								180
 							]
 						],
 						"settings":
 						{
-							"auto_name": "{",
 							"syntax": "Packages/JavaScript/JSON.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true

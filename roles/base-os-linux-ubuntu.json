@@ -9,6 +9,7 @@
   "chef_type": "role",
   "run_list": [
     "recipe[apt-periodic]",
+    "recipe[firewall]",
     "recipe[my-linux]",
     "recipe[my-linux::ubuntu]"
   ],

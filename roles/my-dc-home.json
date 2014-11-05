@@ -8,7 +8,7 @@
        "Software": "P:\\Software"
     },
 
-    "my-linux_firewall": {
+    "my_linux_firewall": {
       "ssh_allow": [
         "192.168.3.132"
       ]
